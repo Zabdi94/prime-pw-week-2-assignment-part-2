@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// It made a variable called 'Dane' and thats also the name.
+// the name Dane is a exact match to Mary. 
+// If true match, then its going to be console.log 'Hi mary!'
+//if false and the variable isnt Mary, then console.log 'how do you do'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created a variable called secret and code equalling to 123.
+// If true and a exact match of 123, then the secret is super
+// the code got multiplied by 2 making it 250
+//if the code is less then 250, then the secret is 'super' if its more then 250 then its duper. since the secret is duper you would console log since its less then 250.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable shows that isStudent is true, age 34, and zip code of 55407.
+// if the students zip code is greater them 8000 then it is false
+// Checked to see if isStudent is false which it wasnt, and if the student was younger than 30 yrs, The student is 34 making the scenario not true.
+//Since the username is true and a exact match to isStudent, I would do console.log('Welcome to Prime')
 
 //CODE
 /*
@@ -130,6 +130,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix -color0ne = 'red' and colorTwo = 'blue' the variables are both set at wrong values. the instructions tell us that color one is blue and two is red.
+// color0ne = 'blue'; colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -139,6 +141,7 @@ if (mix === true) {
 }
 */
 
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -147,6 +150,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Fix - if the (temp > 39 and time >=4) instruction says that if the temp is higher than 39 and if the time is greater than or equal to 4
+// the answer is if(temp > & time >=4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +165,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//fix- Directions say if age is greater than or equal to minAge, it is true so we're going to console.log
+// (age >= minAge)
+// console.log ('enter')
+//Else {console.log ('no entry")};
 if(minAge <= age) {
   console.log('no entry');
 } else {
