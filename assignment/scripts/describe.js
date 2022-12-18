@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// It made a variable called 'Dane' and thats also the name.
-// the name Dane is a exact match to Mary. 
+// It made a variable called 'Name' and it is a string called 'Dane'.
+// the name Dane is a exact match to Mary. Also a conditional.
 // If true match, then its going to be console.log 'Hi mary!'
 //if false and the variable isnt Mary, then console.log 'how do you do'
 
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// created a variable called secret and code equalling to 123.
-// If true and a exact match of 123, then the secret is super
-// the code got multiplied by 2 making it 250
-//if the code is less then 250, then the secret is 'super' if its more then 250 then its duper. since the secret is duper you would console log since its less then 250.
+// created a variable called 'secret'
+// declare a variable named 'code' and made the value 123
+//if 'code' is equal to 123, 'secret' will turn into 'super' and 'code' (123) is multiplied x2 (code =246)
+//if 'code' is over 250, 'secret' would turn into 'duper'. The value is 246.
+// Console log 'super' because the value is under 250.
 
 //CODE
 /*
@@ -130,15 +131,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-//Fix -color0ne = 'red' and colorTwo = 'blue' the variables are both set at wrong values. the instructions tell us that color one is blue and two is red.
-// color0ne = 'blue'; colorTwo = 'red'.
+//Fix
+// 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-}
+} 
+// FIX- On this line we need to add "colorTwo = 'purple';"
 */
 
 
@@ -151,7 +153,7 @@ let temp = 40;
 const time = 4;
 
 // Fix - if the (temp > 39 and time >=4) instruction says that if the temp is higher than 39 and if the time is greater than or equal to 4
-// the answer is if(temp > & time >=4)
+// the answer is if(temp > && time >=4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
